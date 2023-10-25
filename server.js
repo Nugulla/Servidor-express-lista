@@ -52,7 +52,6 @@ app.put('/tasks/:id', (req, res) => {
     res.status(404).json({message: 'No se encontró la tarea'});
   }
   
-
 })
 
 app.delete('/tasks/:id', (req, res) => {
